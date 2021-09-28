@@ -1,0 +1,11 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.nav__logo {
+  height: 30px;
+}
+.nav__avatar {
+  height: 30px;
+}
