@@ -4,6 +4,8 @@ import Row from './Row';
 import request from './request';
 import Banner from './Banner';
 import Nav from './Nav';
+// import Youtube from 'react-youtube';
+// import opts from './Row';
 function App() {
   return (
     <div className="App">
@@ -17,6 +19,7 @@ function App() {
       <Row title="Horror Movies" fetchUrl={request.fetchHorrorMovies} />
       <Row title="Romance Movies" fetchUrl={request.fetchRomanceMovies} />
       <Row title="Documentory Movies" fetchUrl={request.fetchDocumentoryMovies} />
+     
   
     </div>
   );

@@ -1,6 +1,6 @@
 .banner {
   color: white;
-  object-fit: contain;
+  object-fit: cover;
   height: 450px;
 }
 .banner__contents {

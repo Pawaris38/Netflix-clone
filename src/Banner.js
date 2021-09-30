@@ -16,14 +16,15 @@ function Banner() {
         fetchData();
     },[]);
    const truncate = (str, n) =>str?.length > n ? str.substr(0, n-1)+"..." : str;
-   const img = `url(${base_url}${movie?.backdrop_path})`;
+   const img = `url(${base_url}${movie?.poster_path})`;
    console.log(movie);
     return (
         
         <header className="banner"
         style={{backgroundSize:"cover",
+        backgroundRepeat:"no-repeat",
     backgroundImage:img,
-    backgroundPosition: "center center"
+    backgroundPosition: "center"
         
 }}
         >
